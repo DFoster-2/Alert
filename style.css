@@ -1,0 +1,15 @@
+.hiden{
+  display: none;
+}
+html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: linear-gradient(to bottom, #0202e3, black);
+}
+body{
+  text-align: center;
+}
