@@ -6,6 +6,7 @@ function date() {
     var minutes = currentTime.getMinutes();
     var seconds = currentTime.getSeconds();
     var formattedTime = `${hours}:${minutes}:${seconds}`;
+    document.getElementById("Time").innerHTML = formattedTime;
     time = formattedTime;
     console.log(time);
     lookout();
